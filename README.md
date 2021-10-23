@@ -111,6 +111,14 @@ https://notepad-plus-plus.org/downloads/
 
 ## Commiting, Pushing, and Pulling To/From the Repository
 <p> This tutorial will teach you how to use the Git bash in order to download the Unity project from GitHub and will also teach you how to upload your changes.</p>
+
+#### Note: If you have already set this up, before every coding session, update your local repository by navigating to the project directory and running these commands:
+
+  **$ git checkout master**
+  
+  **$ git pull origin master**
+  
+  #### You can then git checkout to each of your branches which you are working on and pull them as well, if other people are working on the same branch with you.
   
   ### Cloning the Repository:
   <p> In order to download the project, you must clone the project to a local folder on your PC. The first step is to make a folder on your PC in which you want to store the Unity Project. Make sure this folder is in a safe and permanent location. The next step is to open Git bash, and navigate to your folder in the terminal using the following command:
@@ -187,6 +195,7 @@ https://notepad-plus-plus.org/downloads/
 <p>You are now done with everything you need to do on your part! The repository managers will now review your code, and merge it into the master branch at a later time. Once your pull request has been accepted, you can go back to the Git bash and delete your branch from your local repository by running these commands:
 
   **$ git checkout master**
+  
   **$ git branch -D [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]**
   
   You now know how to push code to the GitHub repository! Congrats!</p>
