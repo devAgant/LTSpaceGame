@@ -219,7 +219,7 @@ https://notepad-plus-plus.org/downloads/
 
   ## Workflow Guide<a name="workflowguide"></a>
   
-  <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, and how to view the project board.</p>
+  <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, close issues, and most importantly, how to view the project board.</p>
   
   ### Creating an Issue:<a name="creatingissue"></a>
   
@@ -237,7 +237,7 @@ https://notepad-plus-plus.org/downloads/
 
 <p>You have now created an issue! Make sure to label the issue so that other collaborators can differentiate your issue from a new feature request.</p>
 
-### Labelling an Issue: <a name="labellingissue"></a>
+### Labelling an Issue:<a name="labellingissue"></a>
 
 <p>There are two ways to label your issue. The first is to label it while you are creating the issue (this method is much better because then you can do this in one step). Alternatively, you can also navigate to issues tab, find your newly created issue, select it, and assign a label. In order to assign a label during the creation of an issue, click on the word "Labels" on the right side of the issue creation panel.</p>
 
@@ -258,3 +258,53 @@ https://notepad-plus-plus.org/downloads/
 ![image](https://user-images.githubusercontent.com/68075877/138567576-9e41ffef-a75a-461b-84f2-737a43abaad4.png)
 
 <p>You have now successfully labelled your issue!</p>
+
+### Assigning an Issue:<a name="assigningissue"></a>
+
+<p>Similar to labelling, there are also two ways to assign your issue. The first is to assign it while you are creating the issue. Alternatively, you can also navigate to issues tab, find your newly created issue, select it, and assign it from there. In order to assign an issue during its creation, click on the word "Assignees" on the right side of the issue creation panel.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567672-43cf9571-98b7-477a-8b9b-28525555d067.png)
+
+<p>You can now assign the issue, and continue creating the issue as normal.</p>
+
+<p>However, what if you want to assign an existing issue to yourself, such as a new feature request, in order to begin working on it? To do this, head over to the Issues tab in the repository.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567025-df845113-5f32-48c3-a307-8809bf8494c8.png)
+
+<p>Find your issue, and select it by clicking the checkbox.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567543-4110bed1-920b-4c73-8be5-d0361163f9f4.png)
+
+<p>Click on the "Assign" dropdown, and choose your name.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567748-047f64c7-bfba-4c63-9aa4-2e9366ce4e34.png)
+
+<p>And boom! you can now begin working on the issue.</p>
+
+### Closing an Issue:<a name="closingissue"></a>
+
+<p>Once your pull request has been approved, you will want to close your issue to indicate to other collaborators that you have finished working on that issue. In order to do this, head over to the Issues tab in the repository.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567025-df845113-5f32-48c3-a307-8809bf8494c8.png)
+
+<p>Find your issue, and select it by clicking the checkbox.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567543-4110bed1-920b-4c73-8be5-d0361163f9f4.png)
+
+<p>Click on the "Mark as" dropdown and choose the closed option.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567886-68253cfd-c706-486a-9fc0-3628d8fb6488.png)
+
+<p>Alternatively, you can find your issue through the project board and select it, and then click the close issue button found there.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567945-031693c5-01a6-481e-9cb0-cec93748f22d.png)
+
+<p>You have now successfully closed your issue! Congratulations on finishing your work!</p>
+
+### Using the Project Board:<a name="closingissue"></a>
+
+<p>The project board is an extremely useful tool you can use to quickly assign, label, and close issues. You can also view all of the issues currently being worked on, as well as all the current pull requests and completed issues. To navigate to the project board, Head over to the Projects tab in the repository.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138568045-871d5d90-496b-4558-90fe-c36353e0ad99.png)
+
+<p></p>
