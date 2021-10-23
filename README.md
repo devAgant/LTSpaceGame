@@ -1,10 +1,23 @@
 # LTHS Video Game Development Club
 <img src="VideoGameClubBlackButton.png" alt="drawing" width="400"/>
 
-## Introduction
+## Table of contents
+1. [Introduction](#introduction)
+2. [Required Software](#requiredsoftware)
+3. [Setting Up Unity Student](#unitystudent)
+    1. [Verification of Student Transcript](#transcriptverification)
+4. [Setting Up GitHub](#githubsetup)
+    1. [Git Bash Commands in Order to Setup SSH](#gitbashcommands)
+    2. [Linking your SSH to your GitHub Account](#linkingssh)
+    3. [Testing your SSH connection to GitHub](#testingconnection)
+5. [Commiting, Pushing, and Pulling To/From the Repository](#githubcommands)
+    1. [Cloning the Repository](#cloningrepository)
+    2. [Opening the cloned project in Unity](#openinginunity)
+
+## Introduction<a name="introduction"></a>
 <p>Hello programmers! Welcome to the main repository our club utilizes in order to contribute code and participate in an integraded collabarative coding experience.</p>
 
-## Required Software
+## Required Software<a name="requiredsoftware"></a>
 <p>In order to utilize this repository, there are a few applications you will be required to install. Below we have listed the required applications needed to contribute to this repository, as well as some optional programs.</p>
 
 ### Required:
@@ -29,17 +42,17 @@ Notepad++:
 
 https://notepad-plus-plus.org/downloads/
 
-## Setting Up Unity Student
+## Setting Up Unity Student<a name="unitystudent"></a>
 <p> At first, Unity Student can be a little overwhelming to download and install. This guide will assist you in installing Unity Student.</p>
 
-### Verification of School Transcript:
+### Verification of School Transcript: <a name="transcriptverification"></a>
 <p> In order to download Unity Student, you must first submit a picture of your transcript to SheerID. When you submit the picture, make sure the picture includes your FULL NAME. Either edit your registration onto one image alongside your transcript from HAC, or request an unoffical transcript from Parchment. It does not matter how you get this image, just make sure it has both a TRANSCRIPT and a FULL NAME contained in the image, or else your request will be denied. The email you enter to send you the code once you have been approved does not have to be your school email, and can be any email you wish it to be. Your Unity account also can be registered under a personal email, this does not matter. After a few hours (or a few days), the Unity team will approve your request for the student edition of the program. Once you have been approved, check your email. Unity will email you a code with instructions to redeem the code. Redeem this code, download and install Unity Hub, and you are ready to go! </p>
 
-## Setting Up GitHub
+## Setting Up GitHub<a name="githubsetup"></a>
 ### IMPORTANT: Do This BEFORE Attempting to Contribute Code:
 <p>Before beginning to contribute code to the project, you MUST enable SSH encryption for your GitHub account. This short tutorial will guide you through this process, so that you can begin to contribute code to the repository.</p>
 
-### Git Bash Commands in Order to Setup SSH:
+### Git Bash Commands in Order to Setup SSH: <a name="gitbashcommands"></a>
 #### Note: These steps may vary on Linux, as Linux developers usually have their own way of doing things However, Linux users can also follow this guide if they wish to do so.
 #### Note: If you are using macOS or Linux, you may need to update your SSH client or install a new SSH client prior to generating a new SSH key. For more information, refer to https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 <p> The first few steps you will need to take can be done anywhere within the git bash. Open your git bash. Then, paste this command into the command line (Shift + Insert on Windows), and hit enter:
@@ -64,7 +77,7 @@ https://notepad-plus-plus.org/downloads/
   
   And you are now finished! The next step is to add your SSH key to GitHub.</p>
   
-  ### Linking your SSH to your GitHub Account:
+  ### Linking your SSH to your GitHub Account:<a name="linkingssh"></a>
   <p>Before exiting out of the Git bash, paste this command into the command line and hit enter:
   
   **$ clip < ~/.ssh/id_ed25519.pub**
@@ -91,7 +104,7 @@ https://notepad-plus-plus.org/downloads/
   
   <p>Congratgulations! You have now finished setting up SSH for GitHub. There is only one step left now: Testing your SSH connection.</p>
   
-  ### Testing your SSH connection to GitHub:
+  ### Testing your SSH connection to GitHub: <a name="testingconnection"></a>
   <p> Open Git bash and paste the following command into the command line:
   
   **$ ssh -T git@github.com**
@@ -109,7 +122,7 @@ https://notepad-plus-plus.org/downloads/
   
   If this is the message you recieved, then you are all set and ready to add and commit to your local repository, and push changes to the GitHub! If you recieve a permission denied message, visit https://docs.github.com/en/articles/error-permission-denied-publickey</p>
 
-## Commiting, Pushing, and Pulling To/From the Repository
+## Commiting, Pushing, and Pulling To/From the Repository<a name="githubcommands"></a>
 <p> This tutorial will teach you how to use the Git bash in order to download the Unity project from GitHub and will also teach you how to upload your changes.</p>
 
 #### Note: If you have already set this up, before every coding session, update your local repository by navigating to the project directory and running these commands:
@@ -120,7 +133,7 @@ https://notepad-plus-plus.org/downloads/
   
   #### You can then git checkout to each of your branches which you are working on and pull them as well, if other people are working on the same branch with you.
   
-  ### Cloning the Repository:
+  ### Cloning the Repository: <a name="cloningrepository"></a>
   <p> In order to download the project, you must clone the project to a local folder on your PC. The first step is to make a folder on your PC in which you want to store the Unity Project. Make sure this folder is in a safe and permanent location. The next step is to open Git bash, and navigate to your folder in the terminal using the following command:
   
   **$ cd [FileDirectory]**
@@ -139,7 +152,7 @@ https://notepad-plus-plus.org/downloads/
   
   You have now cloned the GitHub repository into your local repository.</p>
   
-  ### Opening the cloned project in Unity:
+  ### Opening the cloned project in Unity:<a name="openinginunity"></a>
   
   <p>In order to open the project you just cloned, open the Unity Hub application. Under the projects tab, click the dropdown arrow next to the Open button in the top right corner, and choose the "Add project from disk" option.</p>
   
@@ -147,7 +160,7 @@ https://notepad-plus-plus.org/downloads/
 
   <p>Navigate to the file where you chose to clone the project from GitHub to, and select the folder. The project will now pop up in Unity, and you can make changes to it as you wish, without altering the GitHub repository.</p>
   
-  ### Pushing Your Code to GitHub, and Creating a Pull Request:
+  ### Pushing Your Code to GitHub, and Creating a Pull Request:<a name="pushingtogithub"></a>
   <p>Once you are done coding, you need to upload your code to GitHub in order for it to be reviewed and merged into the main branch. There are a few steps in order to do this. The first step is to navigate to your project directory in Git bash. To do this, run this command:
 
    **$ cd [FileDirectory]**
