@@ -148,6 +148,47 @@ https://notepad-plus-plus.org/downloads/
   
   **$ cd C:\Users\devAgant\Unity\LTSpaceGame**
   
+  Once you are in your project directory, run this command:
   
-</p>
+  **$ git checkout -b [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]**
+  
+  Then, run this command:
+  
+  **$ git add .**
+  
+  After this command, you can then run this command in order to see what changes have been staged to commit to your local repository. This is an optional command.
+  
+  **$git status**
+  
+  Then, run this command in order to commit your code to your local repository.
+  
+  **$ git commit -m "[short message stating what changes you made]"**
+  
+  Finally, run this command:
+  
+  **git push -u origin [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]**
+  
+  You have now pushed your code to the GitHub repository! However, there is one more step. In order to merge your code into the master branch, you must create a pull request. In order to do this, go to the GitHub repository on the website, and click on the branches tab:</p>
+  
+ ![image](https://user-images.githubusercontent.com/68075877/138543903-528659c4-ba26-4063-a910-2aea6fce66c6.png)
+
+<p>Once you are here, you will see your branch, and a button next to it asking you to create a pull request. Click this button:</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138543964-f66f7ab7-dbcb-46f7-a32e-c960c1f03407.png)
+
+<p>Create a title stating what the pull request is related to, and type any additional comments about the request:</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138544006-aa702e03-4b8f-49ce-9724-85d51b64b973.png)
+
+<p>Add all the reviewers to the pull request by clicking the gear under the reviewers tab on the right side of the page:</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138544038-4f772579-efda-453c-b61e-b2dc67f4ed70.png)
+
+<p>You are now done with everything you need to do on your part! The repository managers will now review your code, and merge it into the master branch at a later time. Once your pull request has been accepted, you can go back to the Git bash and delete your branch from your local repository by running these commands:
+
+  **$ git checkout master**
+  **$ git branch -D [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]**
+  
+  You now know how to push code to the GitHub repository! Congrats!</p>
+
   
