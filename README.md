@@ -16,7 +16,8 @@
 5. [Commiting, Pushing, and Pulling To/From the Repository](#githubcommands)
     1. [Cloning the Repository](#cloningrepository)
     2. [Opening the Cloned Project in Unity](#openinginunity)
-    3. [Pushing Your Code to GitHub, and Creating a Pull Request](#pushingtogithub)
+    3. [Pushing Your Code to GitHub](#pushingtogithub)
+    4. [Creating a Pull Request](#pullrequests)
 6. [Workflow Guide](#workflowguide)
     1. [Creating an Issue](#creatingissue)
     2. [Labelling an Issue](#labellingissue)
@@ -171,7 +172,7 @@ https://notepad-plus-plus.org/downloads/
 
   <p>Navigate to the file where you chose to clone the project from GitHub to, and select the folder. The project will now pop up in Unity, and you can make changes to it as you wish, without altering the GitHub repository.</p>
   
-  ### Pushing Your Code to GitHub, and Creating a Pull Request:<a name="pushingtogithub"></a>
+  ### Pushing Your Code to GitHub:<a name="pushingtogithub"></a>
   <p>Once you are done coding, you need to upload your code to GitHub in order for it to be reviewed and merged into the main branch. There are a few steps in order to do this. The first step is to navigate to your project directory in Git bash. To do this, run this command:
 
    `$ cd [FileDirectory]`
@@ -206,7 +207,11 @@ https://notepad-plus-plus.org/downloads/
   
   `git push -u origin [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]`
   
-  You have now pushed your code to the GitHub repository! However, there is one more step. In order to merge your code into the master branch, you must create a pull request. In order to do this, go to the GitHub repository on the website, and click on the branches tab:</p>
+  You have now pushed your code to the GitHub repository! However, there is one more step. </p>
+    
+  ### Creating a Pull Request:<a name="pullrequests"></a>
+  
+  <p>In order to merge your code into the master branch, you must create a pull request. In order to do this, go to the GitHub repository on the website, and click on the branches tab:</p>
   
  ![image](https://user-images.githubusercontent.com/68075877/138543903-528659c4-ba26-4063-a910-2aea6fce66c6.png)
 
