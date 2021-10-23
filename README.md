@@ -92,5 +92,19 @@ https://notepad-plus-plus.org/downloads/
   <p>Congratgulations! You have now finished setting up SSH for GitHub. There is only one step left now: Testing your SSH connection.</p>
   
   ### Testing your SSH connection to GitHub:
+  <p> Open Git bash and paste the following command into the command line:
   
-
+  **$ ssh -T git@github.com**
+  
+  You may see this prompt in your bash:
+  
+  > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+  > RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+  > Are you sure you want to continue connecting (yes/no)?
+  
+  Verify that your SHA256 code matches the SHA256 code in the text above. If it does, then type 'yes' and hit enter. The message this should return should look like this:
+  
+  > Hi [username]! You've successfully authenticated, but GitHub does not
+  > provide shell access.
+  
+  If this is the message you recieved, then you are all set and ready to add and commit to your local repository, and push changes to the GitHub! If you recieve a permission denied message, visit https://docs.github.com/en/articles/error-permission-denied-publickey</p>
