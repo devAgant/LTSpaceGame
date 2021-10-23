@@ -54,7 +54,7 @@ https://notepad-plus-plus.org/downloads/
 <p>Before beginning to contribute code to the project, you MUST enable SSH encryption for your GitHub account. This short tutorial will guide you through this process, so that you can begin to contribute code to the repository.</p>
 
 ### Git Bash Commands in Order to Setup SSH: <a name="gitbashcommands"></a>
-#### Note: These steps may vary on Linux, as Linux developers usually have their own way of doing things However, Linux users can also follow this guide if they wish to do so.
+#### Note: These steps may vary on Linux, as Linux developers usually have their own way of doing things. However, Linux users can also follow this guide if they wish to do so.
 #### Note: If you are using macOS or Linux, you may need to update your SSH client or install a new SSH client prior to generating a new SSH key. For more information, refer to https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 <p> The first few steps you will need to take can be done anywhere within the git bash. Open your git bash. Then, paste this command into the command line (Shift + Insert on Windows), and hit enter:
   
