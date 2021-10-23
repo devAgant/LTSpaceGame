@@ -1,11 +1,3 @@
-Assets/ @devAgant
-Packages/ @devAgant
-ProjectSettings/ @devAgant
-
-Assets/ @stepan-antonyuk
-Packages/ @stepan-antonyuk
-ProjectSettings/ @stepan-antonyuk
-
-Assets/ @yummy2eat
-Packages/ @yummy2eat
-ProjectSettings/ @yummy2eat
+Assets/ @devAgant @stepan-antonyuk @yummy2eat
+Packages/ @devAgant @stepan-antonyuk @yummy2eat
+ProjectSettings/ @devAgant @stepan-antonyuk @yummy2eat
