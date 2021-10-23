@@ -1,4 +1,4 @@
-# LTHS Videogame Development Club
+# LTHS Video Game Development Club
 <img src="VideoGameClubBlackButton.png" alt="drawing" width="400"/>
 
 ## Introduction
@@ -108,3 +108,46 @@ https://notepad-plus-plus.org/downloads/
   > provide shell access.
   
   If this is the message you recieved, then you are all set and ready to add and commit to your local repository, and push changes to the GitHub! If you recieve a permission denied message, visit https://docs.github.com/en/articles/error-permission-denied-publickey</p>
+
+## Commiting, Pushing, and Pulling To/From the Repository
+<p> This tutorial will teach you how to use the Git bash in order to download the Unity project from GitHub and will also teach you how to upload your changes.</p>
+  
+  ### Cloning the Repository:
+  <p> In order to download the project, you must clone the project to a local folder on your PC. The first step is to make a folder on your PC in which you want to store the Unity Project. Make sure this folder is in a safe and permanent location. The next step is to open Git bash, and navigate to your folder in the terminal using the following command:
+  
+  **$ cd [FileDirectory]**
+  
+  Here is an example of this command:
+  
+  **$ cd C:\Users\devAgant\Unity\LTSpaceGame**
+  
+  Once you have located the directory in which you wish to clone the project to inside of the terminal, go to GitHub and copy this link from the repository homepage. Make sure the SSH option is selected:
+  
+  ![image](https://user-images.githubusercontent.com/68075877/138543395-8c7a8d78-19c0-4ba6-a07b-e415efc5f6c5.png)
+
+  Then, take this link and paste it alongside this command into the Git bash terminal:
+  
+  **$ git clone [SSH Link]**
+  
+  You have now cloned the GitHub repository into your local repository.</p>
+  
+  ### Opening the cloned project in Unity:
+  
+  <p>In order to open the project you just cloned, open the Unity Hub application. Under the projects tab, click the dropdown arrow next to the Open button in the top right corner, and choose the "Add project from disk" option.</p>
+  
+  ![image](https://user-images.githubusercontent.com/68075877/138543457-03262963-74f2-4787-816e-c8abf866ab79.png)
+
+  <p>Navigate to the file where you chose to clone the project from GitHub to, and select the folder. The project will now pop up in Unity, and you can make changes to it as you wish, without altering the GitHub repository.</p>
+  
+  ### Pushing Your Code to GitHub, and Creating a Pull Request:
+  <p>Once you are done coding, you need to upload your code to GitHub in order for it to be reviewed and merged into the main branch. There are a few steps in order to do this. The first step is to navigate to your project directory in Git bash. To do this, run this command:
+
+   **$ cd [FileDirectory]**
+  
+  Here is an example of this command:
+  
+  **$ cd C:\Users\devAgant\Unity\LTSpaceGame**
+  
+  
+</p>
+  
