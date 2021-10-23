@@ -1,6 +1,9 @@
 # LTHS Video Game Development Club
 <img src="VideoGameClubBlackButton.png" alt="drawing" width="400"/>
 
+## Introduction<a name="introduction"></a>
+<p>Hello programmers! Welcome to the main repository our club utilizes in order to contribute code and participate in an integraded collabarative coding experience.</p>
+
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Required Software](#requiredsoftware)
@@ -8,14 +11,12 @@
     1. [Verification of Student Transcript](#transcriptverification)
 4. [Setting Up GitHub](#githubsetup)
     1. [Git Bash Commands in Order to Setup SSH](#gitbashcommands)
-    2. [Linking your SSH to your GitHub Account](#linkingssh)
-    3. [Testing your SSH connection to GitHub](#testingconnection)
+    2. [Linking Your SSH to Your GitHub Account](#linkingssh)
+    3. [Testing Your SSH Connection to GitHub](#testingconnection)
 5. [Commiting, Pushing, and Pulling To/From the Repository](#githubcommands)
     1. [Cloning the Repository](#cloningrepository)
-    2. [Opening the cloned project in Unity](#openinginunity)
-
-## Introduction<a name="introduction"></a>
-<p>Hello programmers! Welcome to the main repository our club utilizes in order to contribute code and participate in an integraded collabarative coding experience.</p>
+    2. [Opening the Cloned Project in Unity](#openinginunity)
+    3. [Pushing Your Code to GitHub, and Creating a Pull Request](#pushingtogithub)
 
 ## Required Software<a name="requiredsoftware"></a>
 <p>In order to utilize this repository, there are a few applications you will be required to install. Below we have listed the required applications needed to contribute to this repository, as well as some optional programs.</p>
@@ -77,7 +78,7 @@ https://notepad-plus-plus.org/downloads/
   
   And you are now finished! The next step is to add your SSH key to GitHub.</p>
   
-  ### Linking your SSH to your GitHub Account:<a name="linkingssh"></a>
+  ### Linking Your SSH to Your GitHub Account:<a name="linkingssh"></a>
   <p>Before exiting out of the Git bash, paste this command into the command line and hit enter:
   
   **$ clip < ~/.ssh/id_ed25519.pub**
@@ -104,7 +105,7 @@ https://notepad-plus-plus.org/downloads/
   
   <p>Congratgulations! You have now finished setting up SSH for GitHub. There is only one step left now: Testing your SSH connection.</p>
   
-  ### Testing your SSH connection to GitHub: <a name="testingconnection"></a>
+  ### Testing Your SSH Connection to GitHub: <a name="testingconnection"></a>
   <p> Open Git bash and paste the following command into the command line:
   
   **$ ssh -T git@github.com**
@@ -152,7 +153,7 @@ https://notepad-plus-plus.org/downloads/
   
   You have now cloned the GitHub repository into your local repository.</p>
   
-  ### Opening the cloned project in Unity:<a name="openinginunity"></a>
+  ### Opening the Cloned Project in Unity:<a name="openinginunity"></a>
   
   <p>In order to open the project you just cloned, open the Unity Hub application. Under the projects tab, click the dropdown arrow next to the Open button in the top right corner, and choose the "Add project from disk" option.</p>
   
