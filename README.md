@@ -23,7 +23,7 @@ Git Bash:
 
 https://git-scm.com/downloads
 
-###Optional:
+### Optional:
 
 Notepad++:
 
@@ -37,4 +37,28 @@ https://notepad-plus-plus.org/downloads/
 
 ## Setting Up Github
 ### IMPORTANT: Do This BEFORE Attempting to Contribute Code:
-<p>Before beginning to contribute code to the project, you MUSt enable SSH encryption for your github account. This short tutorial will guide you through this process, so that you can begin to contribute code to the repository.</p>
+<p>Before beginning to contribute code to the project, you MUST enable SSH encryption for your GitHub account. This short tutorial will guide you through this process, so that you can begin to contribute code to the repository.</p>
+
+### Git Bash Commands in Order to Setup SSH:
+#### Note: These steps may vary on Linux, as Linux developers usually have their own way of doing things However, Linux users can also follow this guide if they wish to do so.
+<p> The first few steps you will need to take can be done anywhere within the git bash. Open your git bash. Then, paste this command into the command line (Shift + Insert on Windows), and hit enter:
+  
+  $ ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist
+  
+  This command will most likely tell you that the directory does not exist. Fortunatley, this is what we want. If you do have something here, you probably already know what you are doing.
+  
+  The next thig you need to do is create an SHH key for yourself, and set a password (passphrase) in order to access the repository from your PC. To create an SSH key, paste this command into the command line, replace "your_email@example.com" with the email you used to create your GitHub account, and hit enter:
+  
+  $ ssh-keygen -t ed25519 -C "your_email@example.com"
+  
+  When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location. The bash will then ask you to set a password (passphrase) which you will have to re-enter later in order to push and pull code from GitHub. The bash will show that you are not typing anything as you type the password, so don't get confused, just type the password and hit enter. The bash will then prompt you to retype the same password, where you must retype it and hit enter. After this, paste this command into the command line and hit enter:
+  
+  $ eval "$(ssh-agent -s)"
+  
+  This should show you an Agent pid. After this, Paste this command into the command line and hit enter:
+  
+  $ ssh-add ~/.ssh/id_ed25519
+  
+  And you are now finished! The next step is to add your SSH key to GitHub.
+  
