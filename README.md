@@ -38,3 +38,27 @@ https://notepad-plus-plus.org/downloads/
 ## Setting Up Github
 ### IMPORTANT: Do This BEFORE Attempting to Contribute Code:
 <p>Before beginning to contribute code to the project, you MUSt enable SSH encryption for your github account. This short tutorial will guide you through this process, so that you can begin to contribute code to the repository.</p>
+
+#Using Terminal to Commit to GitHub
+
+You’ve got a few options to use this git commit command in the terminal code. Let’s have a look at them one by one.
+
+  git commit -a
+
+This will initiate the commit process to commit all changes in your current directory. But you will need to enter the commit message (i.e. the short description about the commit) separately. Your default text editor opens automatically on executing this command where you can enter the commit message.
+
+  git commit -m “<commit message>”
+
+If you wish to avoid an external prompt to enter the commit message while committing the desired changes to your local repository, use this command.
+
+  git commit -am “<commit message>”
+
+Running this command will commit all changes in the repository you’re currently working in, skipping the staging process, all the while including the descriptive commit message.
+
+  git commit --amend “<commit message>”
+
+With the help of this command, you can rewrite the last made commit with the latest staged changes (as a new commit).
+
+Since these commits are made to the local repository, you must publish them to reflect them in the remote origin. This way all your teammates will be able to access the latest version of the code base. To do this, run the following command:
+
+  git push <remote> <branch-name>
