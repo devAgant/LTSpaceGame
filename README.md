@@ -17,6 +17,7 @@
     1. [Cloning the Repository](#cloningrepository)
     2. [Opening the Cloned Project in Unity](#openinginunity)
     3. [Pushing Your Code to GitHub, and Creating a Pull Request](#pushingtogithub)
+6. [Workflow Guide](#workflowguide)
 
 ## Required Software<a name="requiredsoftware"></a>
 <p>In order to utilize this repository, there are a few applications you will be required to install. Below we have listed the required applications needed to contribute to this repository, as well as some optional programs.</p>
@@ -216,4 +217,23 @@ https://notepad-plus-plus.org/downloads/
   
   You now know how to push code to the GitHub repository! Congrats!</p>
 
+  ## Workflow Guide<a name="workflowguide"></a>
   
+  <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, and how to view the project board.</p>
+  
+  ### Creating an Issue:
+  
+  <p> In the case you find a bug in our code, you will want to create an issue stating that a bug was found on the website. To do this, the first step is to navigate to the Issues tab in the repository.</p>
+    
+![image](https://user-images.githubusercontent.com/68075877/138567025-df845113-5f32-48c3-a307-8809bf8494c8.png)
+
+<p>Once you are here, you can create an issue by pressing the green "New issue" button.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567054-0a7c17dd-d613-402b-9847-9b348b3594c6.png)
+
+<p>Enter the name of the issue into the titlebox, and provide a description as to what the issue is. If the issue is a bug, you may want to specify where exactly in the code the bug is present, or if the location of the bug is unknown, state what exactly the bug is. After you are done creating your issue, click the green "Submit new issue" button.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567165-bc80ed81-ae1b-491f-8b98-d74817642ccb.png)
+
+<p>You have now created an issue! Make sure to label the issue so that other collaborators can differentiate your issue from a new feature request.</p>
+
