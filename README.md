@@ -149,15 +149,15 @@ https://notepad-plus-plus.org/downloads/
   
   Here is an example of this command:
   
-  `$ cd C:/Users/devAgant/Unity/LTSpaceGame`
+  `$ cd C:/Users/devAgant/Unity/LTSpaceGame`</p>
     
-    #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
+   #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
   
-  Once you have located the directory in which you wish to clone the project to inside of the terminal, go to GitHub and copy this link from the repository homepage. Make sure the SSH option is selected:
+  <p>Once you have located the directory in which you wish to clone the project to inside of the terminal, go to GitHub and copy this link from the repository homepage. Make sure the SSH option is selected:</p>
   
   ![image](https://user-images.githubusercontent.com/68075877/138543395-8c7a8d78-19c0-4ba6-a07b-e415efc5f6c5.png)
 
-  Then, take this link and paste it alongside this command into the Git bash terminal:
+  <p>Then, take this link and paste it alongside this command into the Git bash terminal:
   
   `$ git clone [SSH Link]`
   
@@ -178,11 +178,11 @@ https://notepad-plus-plus.org/downloads/
   
   Here is an example of this command:
   
-  `$ cd C:/Users/devAgant/Unity/LTSpaceGame`
+  `$ cd C:/Users/devAgant/Unity/LTSpaceGame`</p>
     
-    #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
+   #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
   
-  Once you are in your project directory, run this command:
+  <p>Once you are in your project directory, run this command:
   
   `$ git checkout -b [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]`
   
