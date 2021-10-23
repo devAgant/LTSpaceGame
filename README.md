@@ -29,7 +29,11 @@ Notepad++:
 
 https://notepad-plus-plus.org/downloads/
 
-##Setting Up Unity Student
+## Setting Up Unity Student
+<p> At first, Unity Student can be a little overwhelming to download and install. This guide will assist you in installing Unity Student.</p>
+
+### Verification of School Transcript:
+<p> In order to download Unity Student, you must first submit a picture of your transcript to SheerID. When you submit the picture, make sure the picture includes your FULL NAME. Either edit your registration onto one image alongside your transcript from HAC, or request an unoffical transcript from Parchment. It does not matter how you get this image, just make sure it has both a TRANSCRIPT and a FULL NAME contained in the image, or else your request will be denied. The email you enter to send you the code once you have been approved does not have to be your school email, and can be any email you wish it to be. Your Unity account also can be registered under a personal email, this does not matter. After a few hours (or a few days), the Unity team will approve your request for the student edition of the program. Once you have been approved, check your email. Unity will email you a code with instructions to redeem the code. Redeem this code, download and install Unity Hub, and you are ready to go! </p>
 
 ## Setting Up Github
 ### IMPORTANT: Do This BEFORE Attempting to Contribute Code:
