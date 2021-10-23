@@ -18,6 +18,11 @@
     2. [Opening the Cloned Project in Unity](#openinginunity)
     3. [Pushing Your Code to GitHub, and Creating a Pull Request](#pushingtogithub)
 6. [Workflow Guide](#workflowguide)
+    1. [Creating an Issue](#creatingissue)
+    2. [Labelling an Issue](#labellingissue)
+    3. [Assigning an Issue](#assigningissue)
+    4. [Closing an Issue](#closingissue)
+    5. [Using the Project Board](#projectboard)
 
 ## Required Software<a name="requiredsoftware"></a>
 <p>In order to utilize this repository, there are a few applications you will be required to install. Below we have listed the required applications needed to contribute to this repository, as well as some optional programs.</p>
@@ -301,10 +306,18 @@ https://notepad-plus-plus.org/downloads/
 
 <p>You have now successfully closed your issue! Congratulations on finishing your work!</p>
 
-### Using the Project Board:<a name="closingissue"></a>
+### Using the Project Board:<a name="projectboard"></a>
 
 <p>The project board is an extremely useful tool you can use to quickly assign, label, and close issues. You can also view all of the issues currently being worked on, as well as all the current pull requests and completed issues. To navigate to the project board, Head over to the Projects tab in the repository.</p>
 
 ![image](https://user-images.githubusercontent.com/68075877/138568045-871d5d90-496b-4558-90fe-c36353e0ad99.png)
 
-<p></p>
+<p>From here, click on the "Project Board" project in order to access the board.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138568082-b9b1cf01-3232-404a-aa04-50126b232b09.png)
+
+<p>You have now successfully navigated to the project board! If you wish to modify an issue, click on the issue and modify what needs to be changed in the panel that appears to the right side of your screen.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567945-031693c5-01a6-481e-9cb0-cec93748f22d.png)
+
+<p>And that's all there is when it comes to the workflow of our repository. You are now fully prepared and ready to contribute code to the repository in an organized manner. Good luck!</p>
