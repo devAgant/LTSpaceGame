@@ -198,7 +198,11 @@ https://notepad-plus-plus.org/downloads/
   
   `$ git commit -m "[short message stating what changes you made]"`
   
-  Finally, run this command:
+  If this is your first time ever using git, you may need to add your GitHub email to git. If you get a message saying "Author identity unkown" then run this command:
+    
+  `$ git config user.email "[your email]"`
+    
+  Then, run the commit command again (only if you got the error). Finally, run this command:
   
   `git push -u origin [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]`
   
