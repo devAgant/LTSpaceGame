@@ -221,7 +221,7 @@ https://notepad-plus-plus.org/downloads/
   
   <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, and how to view the project board.</p>
   
-  ### Creating an Issue:
+  ### Creating an Issue:<a name="creatingissue"></a>
   
   <p> In the case you find a bug in our code, you will want to create an issue stating that a bug was found on the website. To do this, the first step is to navigate to the Issues tab in the repository.</p>
     
@@ -237,3 +237,24 @@ https://notepad-plus-plus.org/downloads/
 
 <p>You have now created an issue! Make sure to label the issue so that other collaborators can differentiate your issue from a new feature request.</p>
 
+### Labelling an Issue: <a name="labellingissue"></a>
+
+<p>There are two ways to label your issue. The first is to label it while you are creating the issue (this method is much better because then you can do this in one step). Alternatively, you can also navigate to issues tab, find your newly created issue, select it, and assign a label. In order to assign a label during the creation of an issue, click on the word "Labels" on the right side of the issue creation panel.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567473-bd5a5994-521c-4238-9c01-d5919ac514ff.png)
+
+<p>You can now assign the labels you need, and continue creating the issue as normal.</p>
+
+<p>However, what if you forgot to assign a label to the issue? To fix this, head over to the Issues tab in the repository.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567025-df845113-5f32-48c3-a307-8809bf8494c8.png)
+
+<p>Find your issue, and select it by clicking the checkbox.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567543-4110bed1-920b-4c73-8be5-d0361163f9f4.png)
+
+<p>Click on the "Label" dropdown, and choose the appropriate label for the issue.</p>
+
+![image](https://user-images.githubusercontent.com/68075877/138567576-9e41ffef-a75a-461b-84f2-737a43abaad4.png)
+
+<p>You have now successfully labelled your issue!</p>
