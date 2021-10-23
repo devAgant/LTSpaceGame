@@ -150,6 +150,8 @@ https://notepad-plus-plus.org/downloads/
   Here is an example of this command:
   
   `$ cd C:/Users/devAgant/Unity/LTSpaceGame`
+    
+    #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
   
   Once you have located the directory in which you wish to clone the project to inside of the terminal, go to GitHub and copy this link from the repository homepage. Make sure the SSH option is selected:
   
@@ -177,6 +179,8 @@ https://notepad-plus-plus.org/downloads/
   Here is an example of this command:
   
   `$ cd C:/Users/devAgant/Unity/LTSpaceGame`
+    
+    #### Note: make sure to use a forward slash (/) in the terminal, and not a backslash (\). If you use a backslash, this will not work!
   
   Once you are in your project directory, run this command:
   
