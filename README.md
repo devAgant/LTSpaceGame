@@ -224,7 +224,7 @@ https://notepad-plus-plus.org/downloads/
 
   ## Workflow Guide<a name="workflowguide"></a>
   
-  <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, close issues, and most importantly, how to view the project board.</p>
+  <p>This tutorial will show you how this repository is organized, and will demonstrate how to use the features we have set up in order for our team to organize our work. You will learn how to create issues, label issues, assign issues, close issues, and most importantly, how to use the project board.</p>
   
   ### Creating an Issue:<a name="creatingissue"></a>
   
