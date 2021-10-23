@@ -223,11 +223,7 @@ https://notepad-plus-plus.org/downloads/
 
 ![image](https://user-images.githubusercontent.com/68075877/138544006-aa702e03-4b8f-49ce-9724-85d51b64b973.png)
 
-<p>Add all the reviewers to the pull request by clicking the gear under the reviewers tab on the right side of the page:</p>
-
-![image](https://user-images.githubusercontent.com/68075877/138544038-4f772579-efda-453c-b61e-b2dc67f4ed70.png)
-
-<p>You are now done with everything you need to do on your part! The repository managers will now review your code, and merge it into the master branch at a later time. Once your pull request has been accepted, you can go back to the Git bash and delete your branch from your local repository by running these commands:
+<p>Finally, submit the pull request. You are now done with everything you need to do on your part! The repository managers will now review your code, and merge it into the master branch at a later time. Once your pull request has been accepted, you can go back to the Git bash and delete your branch from your local repository by running these commands:
 
   `$ git checkout master`
   
