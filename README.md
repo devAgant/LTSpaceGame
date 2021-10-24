@@ -34,6 +34,10 @@ Unity Student:
 
 https://unity.com/products/unity-student
 
+Unity Hub:
+
+https://unity3d.com/get-unity/download
+
 <p>An IDE or Text Editor that operates as an IDE, Some Examples Below:
   
 https://visualstudio.microsoft.com/downloads/
