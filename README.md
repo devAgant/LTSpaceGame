@@ -18,6 +18,7 @@
     2. [Opening the Cloned Project in Unity](#openinginunity)
     3. [Pushing Your Code to GitHub](#pushingtogithub)
     4. [Creating a Pull Request](#pullrequests)
+    5. [Using the GitHub Desktop App](#githubdesktop)
 6. [Workflow Guide](#workflowguide)
     1. [Creating an Issue](#creatingissue)
     2. [Labelling an Issue](#labellingissue)
@@ -234,6 +235,10 @@ https://notepad-plus-plus.org/downloads/
   `$ git branch -D [yourFirstName]-[nameOfIssue/nameOfFeature]-[issueNumber/featureNumber]`
   
   You now know how to push code to the GitHub repository! Congrats!</p>
+  
+  ### Using the GitHub Desktop App:<a name="githubdesktop"></a>
+  
+  <p>Alternatively, you can use the GitHub desktop app to push, pull, and commit to Git and GitHub. In order to setup the GitHub desktop app, first open the app. If you have already made a repository from the previous steps, click the "Add an existing repository" button. If not, click the clone repository button. Then, choose the file directory in which your Unity project is located. The app will automatically load the repository, and provide a user interface which can be used to perform the commands which you learned how to use in the tutorial above with ease.</p>
 
   ## Workflow Guide<a name="workflowguide"></a>
   
