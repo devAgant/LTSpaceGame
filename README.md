@@ -146,6 +146,7 @@ https://notepad-plus-plus.org/downloads/
   `$ git pull origin master`
     
   </p>
+  
   #### You can then git checkout to each of your branches which you are working on and pull them as well, if other people are working on the same branch with you.
   
   ### Cloning the Repository: <a name="cloningrepository"></a>
