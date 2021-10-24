@@ -55,6 +55,10 @@ Notepad++:
 
 https://notepad-plus-plus.org/downloads/
 
+GitHub Desktop:
+
+https://desktop.github.com/
+
 ## Setting Up Unity Student<a name="unitystudent"></a>
 <p> At first, Unity Student can be a little overwhelming to download and install. This guide will assist you in installing Unity Student.</p>
 
