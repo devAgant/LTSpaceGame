@@ -25,6 +25,7 @@
     3. [Assigning an Issue](#assigningissue)
     4. [Closing an Issue](#closingissue)
     5. [Using the Project Board](#projectboard)
+    6. [Sprint Schedule](#sprint)
 
 ## Required Software<a name="requiredsoftware"></a>
 <p>In order to utilize this repository, there are a few applications you will be required to install. Below we have listed the required applications needed to contribute to this repository, as well as some optional programs.</p>
@@ -335,12 +336,16 @@ https://desktop.github.com/
 
 ![image](https://user-images.githubusercontent.com/68075877/138568045-871d5d90-496b-4558-90fe-c36353e0ad99.png)
 
-<p>From here, click on the "Project Board" project in order to access the board.</p>
+<p>From here, click on the most recent project board in order to access the current board.</p>
 
 ![image](https://user-images.githubusercontent.com/68075877/138568082-b9b1cf01-3232-404a-aa04-50126b232b09.png)
 
 <p>You have now successfully navigated to the project board! If you wish to modify an issue, click on the issue and modify what needs to be changed in the panel that appears to the right side of your screen.</p>
 
 ![image](https://user-images.githubusercontent.com/68075877/138567945-031693c5-01a6-481e-9cb0-cec93748f22d.png)
+
+### Sprint Schedule<a name="sprint"></a>
+
+<p>During this project, our repository will be organized in a series of "sprints". A sprint is a period of time in which the contributors of the repository must finish all the current issues on the project board's to do list (including fixing bugs) within a given period of time. In this club, each sprint will last two weeks. If a sprint is fully completed early, a small break will be provided as a reward to the members of the programming team, and the next sprint will then begin immediatley after the break. If a sprint is not completed in time, no worries! The unfinished issues will carry over into the next sprint. However, if issues are continued to be left unfinished over consecutive sprints without a valid excuse, then there will be consequences within the club, and proper action will be taken.</p>
 
 <p>And that's all there is when it comes to the workflow of our repository. You are now fully prepared and ready to contribute code to the repository in an organized manner. Good luck!</p>
