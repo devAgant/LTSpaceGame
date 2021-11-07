@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058727798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.86, y: 0.11, z: 0}
+  m_LocalPosition: {x: -2.55, y: 0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 298242222}
@@ -2040,7 +2040,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.5, y: -0.5}
@@ -2066,7 +2066,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 2.5, y: 1.5}
@@ -2093,8 +2093,8 @@ GameObject:
   - component: {fileID: 1398635330}
   - component: {fileID: 1398635329}
   - component: {fileID: 1398635328}
-  - component: {fileID: 1398635327}
   - component: {fileID: 1398635331}
+  - component: {fileID: 1398635327}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2198,7 +2198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398635326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1329, y: -0.0157, z: 0}
+  m_LocalPosition: {x: -4.49, y: 0.72, z: 0}
   m_LocalScale: {x: 1.096154, y: 1.096154, z: 1.096154}
   m_Children: []
   m_Father: {fileID: 0}
