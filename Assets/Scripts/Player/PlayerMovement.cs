@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 Direction; //{ get; set; }
     public Vector2 Speed; //{ get; set; }
     
-    //Multiplayers
+    //Multipliers
     private float SpeedMultiplier = 1f;
     private float StairsMultiplier = 1f;
 
