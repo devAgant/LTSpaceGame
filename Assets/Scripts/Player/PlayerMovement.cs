@@ -22,14 +22,14 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 Speed; //{ get; set; }
     
     //Multiplayers
-    private float SpeedMultiplayer = 1f;
-    private float StairsMultiplayer = 1f;
+    private float SpeedMultiplier = 1f;
+    private float StairsMultiplier = 1f;
 
     // Update is called once per frame
     void Update()
     {
         //Assign
-        SpeedMultiplayer = 1f;        
+        SpeedMultiplier = 1f;        
 
         //Input
         Direction.x = Input.GetAxisRaw("Horizontal");
@@ -38,10 +38,10 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            SpeedMultiplayer *= _runSpeed;
+            SpeedMultiplier *= _runSpeed;
         }
         
-        Speed = Direction * _walkSpeed * SpeedMultiplayer * StairsMultiplayer;
+        Speed = Direction * _walkSpeed * SpeedMultiplier * StairsMultiplier;
 
         if (AnimationSwitch)
         {
@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.tag == "Stairs")
         {
             //When Player Enters Staris collider his current speed is multiplayed by starisSpeed
-            StairsMultiplayer *= _stairsSpeed;
+            StairsMultiplier *= _stairsSpeed;
         }
     }
 
@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         // if player leavs stairs it returns its StairsMultiplayer back to 1
         if (other.tag == "Stairs")
         {
-            StairsMultiplayer = 1f;
+            StairsMultiplier = 1f;
         }
     }
     
