@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: 2407840880612123955
     second: Rock
+  - first:
+      213: 97240922485140604
+    second: Groundtileset_Full
+  - first:
+      213: 2218272286189664329
+    second: Groundtileset_Stair
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -222,7 +228,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +236,48 @@ TextureImporter:
       bones: []
       spriteID: 335ac8c068e5a6120800000000000000
       internalID: 2407840880612123955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groundtileset_Full
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cab529a18795100800000000000000
+      internalID: 97240922485140604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groundtileset_Stair
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948bd6134e2e8ce10800000000000000
+      internalID: 2218272286189664329
       vertices: []
       indices: 
       edges: []
