@@ -56,6 +56,6 @@ public class PlayerMovement : MonoBehaviour
         walkAnimator.SetFloat("Vertical", Direction.y);
         walkAnimator.SetFloat("Walk Speed", Direction.sqrMagnitude);
     }
-
+    
     #endregion
 }
