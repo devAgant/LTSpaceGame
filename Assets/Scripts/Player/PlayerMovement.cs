@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     // Physics
     public Rigidbody2D rigidBody2D;
 
@@ -15,19 +16,34 @@ public class PlayerMovement : MonoBehaviour
 
     // User state
     private float _walkSpeed = 5f;
+    private float _stairsSpeed = 0.5f;
+    private float _runSpeed = 2f;
     public Vector2 Direction; //{ get; set; }
     public Vector2 Speed; //{ get; set; }
+    
+    //Multipliers
+    private float SpeedMultiplier = 1f;
+    private float StairsMultiplier = 1f;
 
     // Update is called once per frame
     void Update()
     {
+        //Assign
+        SpeedMultiplier = 1f;        
+
         //Input
         Direction.x = Input.GetAxisRaw("Horizontal");
         Direction.y = Input.GetAxisRaw("Vertical");
         Direction = Direction.normalized;
-        Speed = Direction * _walkSpeed;
+        
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            SpeedMultiplier *= _runSpeed;
+        }
+        
+        Speed = Direction * _walkSpeed * SpeedMultiplier * StairsMultiplier;
 
-        if(AnimationSwitch)
+        if (AnimationSwitch)
         {
             UpdateWalkAnimator();
         }
@@ -46,7 +62,26 @@ public class PlayerMovement : MonoBehaviour
     {
         Direction = Direction.normalized;
     }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //Check to see if the tag on the collider is equal to Stairs
+        if (other.tag == "Stairs")
+        {
+            //When Player Enters Staris collider his current speed is multiplayed by starisSpeed
+            StairsMultiplier *= _stairsSpeed;
+        }
+    }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        // if player leavs stairs it returns its StairsMultiplayer back to 1
+        if (other.tag == "Stairs")
+        {
+            StairsMultiplier = 1f;
+        }
+    }
+    
     #endregion
 
     #region Animation
