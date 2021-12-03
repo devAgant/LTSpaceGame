@@ -1735,7 +1735,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1 &1589432596
 GameObject:
@@ -4327,6 +4327,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1568641777}
     m_Modifications:
+    - target: {fileID: 1251839256485608836, guid: ce98e5e9a5f313d41808ba639b9f2fc3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251839256485608836, guid: ce98e5e9a5f313d41808ba639b9f2fc3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251839256485608836, guid: ce98e5e9a5f313d41808ba639b9f2fc3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3951623019592647622, guid: ce98e5e9a5f313d41808ba639b9f2fc3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
