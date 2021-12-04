@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Stairs
   - Teleport
+  - Teleporter
+  - Coin
   layers:
   - Default
   - TransparentFX
