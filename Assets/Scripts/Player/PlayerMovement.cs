@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public bool AnimationSwitch = false;
 
     // User state
-    private float _walkSpeed = 5f;
+    private float _walkSpeed = 100f;
     public Vector2 Direction; //{ get; set; }
     public Vector2 Speed; //{ get; set; }
 
