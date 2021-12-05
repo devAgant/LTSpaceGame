@@ -9,6 +9,9 @@ public class BuyHandler : MonoBehaviour, IPointerClickHandler
     Button buyButton;
     Image[] itemButtons;
     bool[] itemButtonsSelected;
+    bool isTriggered;
+    public GameObject merchant;
+    private static bool exitHasBeenCalled;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -31,13 +34,25 @@ public class BuyHandler : MonoBehaviour, IPointerClickHandler
     // Update is called once per frame
     void Update()
     {
-
+        if (exitHasBeenCalled == true) {
+            onExit();
+            exitHasBeenCalled = false;
+        }
     }
 
     public void onBuy() {
         foreach (Image button in itemButtons) {
             button.color = new Color32(255,203,136,255);
         }
+    }
+    public void onExit() {
+        foreach (Image button in itemButtons) {
+            button.color = new Color32(255,203,136,255);
+        }
+    }
+
+    public static void ExitHasBeenCalled() {
+        exitHasBeenCalled = true;
     }
 
 

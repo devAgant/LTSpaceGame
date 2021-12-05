@@ -27,15 +27,16 @@ public class Merchant : MonoBehaviour, IDragHandler, IPointerDownHandler
     // Update is called once per frame
     void Update()
     {
-        
+        isTriggered = merchant.gameObject.GetComponent<ProximDetect>().isTriggered;
         if (Input.GetKeyDown(keyCode)) {
-            isTriggered = merchant.gameObject.GetComponent<ProximDetect>().isTriggered;
             if (isTriggered == true) {
                 merchantMenu.gameObject.SetActive(!merchantMenu.gameObject.activeSelf);
             }            
         }
         if (isTriggered == false) {
+            BuyHandler.ExitHasBeenCalled();
             merchantMenu.gameObject.SetActive(false);
+            
         }
         
     }
