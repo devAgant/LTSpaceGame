@@ -193,12 +193,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -327,14 +327,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 240.4
+  m_fontSize: 196.55
   m_fontSizeBase: 0
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 300
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -252.22778, y: 0, z: -704.8093, w: -337.6934}
+  m_margin: {x: -120.280304, y: 89.06463, z: -625.6409, w: -209.04459}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -565,11 +565,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.7233
+      value: -407
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -139
+      value: -386
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -862,11 +862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4.7233
+      value: -407
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 25.74
+      value: -245
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194201, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
