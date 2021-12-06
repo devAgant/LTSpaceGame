@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerStats : MonoBehaviour
+public class MenuOpener : MonoBehaviour
 {
-    public Stat dexterity;
-    public Stat strength;
-    public Stat intelligence;
+    public GameObject menu;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.GetComponent<Button>().onClick.AddListener(Click);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    private void Click()
+    {
+        menu.SetActive(!menu.activeSelf);
     }
 }

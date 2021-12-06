@@ -36,4 +36,8 @@ public class Stat : MonoBehaviour
     {
         text.text = gameObject.name + ": " + value;
     }
+    public int getValue()
+    {
+        return value;
+    }
 }
