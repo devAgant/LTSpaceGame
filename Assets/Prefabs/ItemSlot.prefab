@@ -87,7 +87,6 @@ GameObject:
   - component: {fileID: 1368202439727996939}
   - component: {fileID: 5080885254119066895}
   - component: {fileID: 1051855726114957296}
-  - component: {fileID: 172634408}
   m_Layer: 0
   m_Name: ItemSlot
   m_TagString: Untagged
@@ -197,7 +196,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 172634408}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonSel, Assembly-CSharp
         m_MethodName: Click
         m_Mode: 1
@@ -209,15 +208,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &172634408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7952283758186857602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77411b1df519f8447beb61ce16d960eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
