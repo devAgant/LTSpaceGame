@@ -1054,7 +1054,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 25}
+  m_AnchoredPosition: {x: 80, y: 31}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534147872
@@ -1246,7 +1246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1001 &669182031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1394,7 +1393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &740116542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7952283758186857602, guid: 66b516e800416e3479fbeff67afc995a, type: 3}
@@ -1417,7 +1415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &797581131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7952283758186857602, guid: 66b516e800416e3479fbeff67afc995a, type: 3}
@@ -1440,7 +1437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &800480311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,7 +1503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &983574548
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,7 +3311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 80}
+  m_AnchoredPosition: {x: 79.99999, y: 80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987654101
@@ -3398,7 +3393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 189.99997, y: -40}
+  m_AnchoredPosition: {x: 77, y: -34}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &999164692
@@ -3526,7 +3521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &1033058190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,7 +3745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &1105731008 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7952283758186857602, guid: 66b516e800416e3479fbeff67afc995a, type: 3}
@@ -3774,7 +3767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &1153028502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3995,7 +3987,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1001 &1393475925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4413,11 +4404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4c74d3ff2089f438c05c160ddc4fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bankerMenu: {fileID: 480844078}
-  banker: {fileID: 1534410280}
-  keyCode: 98
-  dragRectTransform: {fileID: 1041545320}
-  canvas: {fileID: 1996410916}
 --- !u!114 &1503118791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4617,7 +4603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &1547342112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7952283758186857602, guid: 66b516e800416e3479fbeff67afc995a, type: 3}
@@ -4640,7 +4625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1001 &1652815351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4992,7 +4976,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 0}
 --- !u!1 &1787648508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5030,7 +5013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -80}
+  m_AnchoredPosition: {x: 37.000008, y: -74}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787648510
@@ -5139,7 +5122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 999164692}
 --- !u!1 &1870714121
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,7 +5507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: -80}
+  m_AnchoredPosition: {x: 117.00001, y: -74}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923069549
@@ -5634,7 +5616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829bbb740de2884bbc67c254bdac342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 999164692}
 --- !u!1 &1939008995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5739,8 +5720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -115, y: 0.000015258789}
-  m_SizeDelta: {x: -230, y: 0}
+  m_AnchoredPosition: {x: -156.23361, y: 0.000015258789}
+  m_SizeDelta: {x: -147.5328, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1975584283
 MonoBehaviour:
