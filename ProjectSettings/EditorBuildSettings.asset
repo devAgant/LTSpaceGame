@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SpaceGame.unity
+    path: Assets/Scenes/ActionTimer.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Main Menu1.unity
+    guid: 18500e652dc76aa42b48bc855b88a767
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/SubMenu.unity
+    guid: 19962f55305cc554585d2c8716afb737
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Scene 1.unity
+    guid: bf1bac95be3d6fe419525f92501363a0
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Scene 2.unity
+    guid: f39cefc6350380348b9a591828c76250
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Scene 3.unity
+    guid: 34f569f766f2841488bd0ef752727153
   m_configObjects: {}
