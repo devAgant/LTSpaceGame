@@ -28,15 +28,16 @@ public class Banker : MonoBehaviour, IDragHandler, IPointerDownHandler
     // Update rate a.k.a U'(x) is initially once per frame but U''(x) is 5 times per frame per frame for all real values of x
     void Update()
     {
-        
+        isTriggered = banker.gameObject.GetComponent<ProximDetect>().isTriggered; 
         if (Input.GetKeyDown(keyCode)) {
-            isTriggered = banker.gameObject.GetComponent<ProximDetect>().isTriggered; 
+            
             if (isTriggered == true)
             {
                 bankerMenu.gameObject.SetActive(!bankerMenu.gameObject.activeSelf);
             }            
         }
         if (isTriggered == false) {
+            BankHandler.ExitHasBeenCalled();
             bankerMenu.gameObject.SetActive(false); 
         }
         

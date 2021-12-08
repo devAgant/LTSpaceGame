@@ -7,6 +7,7 @@ public class BankHandler : MonoBehaviour
 
     [SerializeField] private InputField inputText;
     public static int balance = 200;
+    private static bool exitHasBeenCalled;
 
     void Start()
     {
@@ -21,6 +22,9 @@ public class BankHandler : MonoBehaviour
         if (!GameObject.Find("BalanceInfo").GetComponent<Text>().text.Equals("Balance: " + balance))
         {
             GameObject.Find("BalanceInfo").GetComponent<Text>().text = "Balance: " + balance;
+        }
+        if (exitHasBeenCalled == true) {
+            exitHasBeenCalled = false;
         }
     }
     public void Switch()
@@ -83,5 +87,8 @@ public class BankHandler : MonoBehaviour
         ScoreInterface.score += amt;
         balance -= amt;
         GameObject.Find("Feedback").GetComponent<Text>().text = "Withdrew " + amt;
+    }
+     public static void ExitHasBeenCalled() {
+        exitHasBeenCalled = true;
     }
 }
