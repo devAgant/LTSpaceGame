@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour // this is mor elike user, we save here stats of his character, level that he is playing, and items in his invetory, and so on...
 {
