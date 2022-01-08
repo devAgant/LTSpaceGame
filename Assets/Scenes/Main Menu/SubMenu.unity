@@ -300,7 +300,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4706660166840350555, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_text
-      value: Scene 1
+      value: Pause Menu Demo
       objectReference: {fileID: 0}
     - target: {fileID: 4706660167670194200, guid: f4aa7c028367c6141a60d1729adacb5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1024,6 +1024,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6eb9e04646cc79439a264efd683c90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneOne: Scene 1
+  sceneOne: PauseMenuDemo
   sceneTwo: Scene 2
   sceneThree: Scene 3
