@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         Direction.y = Input.GetAxisRaw("Vertical");
         Direction = Direction.normalized;
         
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeybindManager.Instance.MovementKeybinds["MVMTSPRINT"]))
         {
             SpeedMultiplier *= _runSpeed;
         }
