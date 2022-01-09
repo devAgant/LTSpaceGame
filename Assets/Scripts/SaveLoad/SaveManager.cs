@@ -48,6 +48,7 @@ public class SaveManager : MonoBehaviour
         stream.Close();
         
         Debug.Log("Saved");
+        Debug.Log(Application.persistentDataPath);
     }
     
     public void Load()
