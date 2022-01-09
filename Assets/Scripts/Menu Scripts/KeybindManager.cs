@@ -87,6 +87,8 @@ public class KeybindManager : MonoBehaviour
             Event e = Event.current;
             if (e.isKey) {
                 BindKey(bindName, e.keyCode);
+                //GameInputManager(bindName, e.keyCode);
+                Debug.Log(bindName + "          " + e.keyCode);
             }
         }
     }

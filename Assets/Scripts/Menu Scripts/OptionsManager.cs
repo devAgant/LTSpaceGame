@@ -25,6 +25,7 @@ public class OptionsManager : MonoBehaviour
     void Awake()
     {
         keybindButtons = GameObject.FindGameObjectsWithTag("Keybind");
+        Debug.Log(keybindButtons);
     }
 
     // Update is called once per frame
