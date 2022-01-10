@@ -34,7 +34,7 @@ public class OptionsManager : MonoBehaviour
         
     }
 
-    public void UpdateKeyText(string key, KeyCode code)
+    public void UpdateKeyText(string key, KeyCode code) // TODO fix
     {
         Text tmp = Array.Find(keybindButtons, x => x.name == key).GetComponentInChildren<Text>();
         tmp.text = code.ToString();

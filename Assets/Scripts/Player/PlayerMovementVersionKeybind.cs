@@ -35,10 +35,9 @@ public class PlayerMovementVersionKeybind : MonoBehaviour
         Direction.y = 0f;     
 
         //Input
-        if(GameInputManager.GetKey("Left") && GameInputManager.GetKey("Right"))
+        if(GameInputManager.GetKey("Left") && GameInputManager.GetKey("Right")) //TODO make it move in the last button pressed direction!!!
         {
             Direction.x = 0f;
-            Debug.Log("Not Moving");
         }
         else if (GameInputManager.GetKey("Right")) // Horizontal check
         {

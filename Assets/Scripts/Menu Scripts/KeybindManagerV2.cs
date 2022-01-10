@@ -8,7 +8,7 @@ public class KeybindManagerV2 : MonoBehaviour
 {
     private static KeybindManagerV2 instance;
     private string bindName = null;
-    private bool changingKey = false;
+    //rivate bool changingKey = false;
 
     public static KeybindManagerV2 Instance
     {
@@ -25,24 +25,28 @@ public class KeybindManagerV2 : MonoBehaviour
     public void KeyBindOnClick(string bindName)
     {
         this.bindName = bindName;
+        /*
         changingKey = true;
         while(changingKey)
         {
-            if ((bindName != string.Empty) && (bindName != null))
+            Event e = Event.current;
+            if(e != null)
             {
-                Event e = Event.current;
-                if (e.isKey) 
+                if (e.isKey)
                 {
-                    Debug.Log("Name: " + bindName + "          Code: " + e.keyCode);
-                    GameInputManager.SetKeyMap(bindName, e.keyCode);
-                    bindName = null;
-                    changingKey = false;
+                    if ((bindName != string.Empty) && (bindName != null)) 
+                    {
+                        Debug.Log("Name: " + bindName + "          Code: " + e.keyCode);
+                        GameInputManager.SetKeyMap(bindName, e.keyCode);
+                        bindName = null;
+                        changingKey = false;
+                    }
                 }
             }
         }
+        */
     }
     
-    /*
     private void OnGUI()
     {
         if ((bindName != string.Empty) && (bindName != null))
@@ -55,5 +59,4 @@ public class KeybindManagerV2 : MonoBehaviour
             }
         }
     }
-    */
 }
