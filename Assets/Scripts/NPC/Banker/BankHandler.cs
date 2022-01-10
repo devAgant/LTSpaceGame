@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
@@ -6,8 +9,10 @@ public class BankHandler : MonoBehaviour
 {
 
     [SerializeField] private InputField inputText;
-    public static int balance = 200;
+    public static int balance = 500;
     private static bool exitHasBeenCalled;
+
+    private static List<InventoryItem> inventoryItems = new List<InventoryItem>(); 
 
     void Start()
     {
@@ -25,17 +30,6 @@ public class BankHandler : MonoBehaviour
         }
         if (exitHasBeenCalled == true) {
             exitHasBeenCalled = false;
-        }
-    }
-    public void Switch()
-    {
-        if (gameObject.transform.parent.name.Equals("YourItems"))
-        {
-            gameObject.transform.SetParent(GameObject.Find("BankerItems").transform);
-        }
-        else if(gameObject.transform.parent.name.Equals("BankerItems"))
-        {
-            gameObject.transform.SetParent(GameObject.Find("YourItems").transform);
         }
     }
 
@@ -90,5 +84,22 @@ public class BankHandler : MonoBehaviour
     }
      public static void ExitHasBeenCalled() {
         exitHasBeenCalled = true;
+    }
+
+    public static void AddItem(InventoryItem item)
+    {
+        inventoryItems.Add(item);
+        //OnItemListChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+    public static void RemoveItem(InventoryItem item)
+    {
+        inventoryItems.Remove(item);
+        //OnItemListChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+    public static List<InventoryItem> GetItemList()
+    {
+        return inventoryItems;
     }
 }
