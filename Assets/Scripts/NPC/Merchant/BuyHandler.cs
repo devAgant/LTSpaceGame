@@ -7,8 +7,7 @@ using UnityEngine.EventSystems;
 public class BuyHandler : MonoBehaviour, IPointerClickHandler
 {
     Button buyButton;
-    Image[] itemButtons;
-    bool[] itemButtonsSelected;
+    List<GameObject> itemButtons;
     bool isTriggered;
     public GameObject merchant;
     private static bool exitHasBeenCalled;
@@ -22,18 +21,20 @@ public class BuyHandler : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         buyButton = transform.Find("BuyButton").gameObject.GetComponent<Button>();
-        itemButtons = new Image[transform.Find("Items").transform.childCount];
-        itemButtonsSelected = new bool[transform.Find("Items").transform.childCount];
-        
-        print(itemButtonsSelected.Length);
-        for (int i = 0; i < itemButtons.Length; i++) {
-            itemButtons[i] = transform.Find("Items").GetChild(i).gameObject.GetComponent<Image>();
-        }
+        itemButtons = new List<GameObject>();
+        Update();
     }
 
     // Update is called once per frame
     void Update()
     {
+        List<GameObject> tempButtons = new List<GameObject>();
+        for (int i = 0; i < transform.Find("Items").transform.childCount; i++) {
+            tempButtons.Add(transform.Find("Items").GetChild(i).gameObject);
+        }
+        if(!itemButtons.Equals(tempButtons)) {
+            itemButtons = tempButtons;
+        }
         if (exitHasBeenCalled == true) {
             onExit();
             exitHasBeenCalled = false;
@@ -41,13 +42,35 @@ public class BuyHandler : MonoBehaviour, IPointerClickHandler
     }
 
     public void onBuy() {
-        foreach (Image button in itemButtons) {
-            button.color = new Color32(255,203,136,255);
+        Merchant_UI_Inventory m = gameObject.GetComponent<Merchant_UI_Inventory>();
+        MerchantItems merchantItems = m.merchantItems;
+        int totalPrice = merchantItems.GetSelectedPrice();
+        List<MerchantItem> items = merchantItems.GetSelectedItemList();
+        if(totalPrice > m.wallet) {
+            GameObject.Find("Feedback").GetComponent<Text>().text = "";
+        }
+        else if (items.Count == 0) {
+            GameObject.Find("Feedback").GetComponent<Text>().text = "You cannot buy nothing";
+        }
+        else {
+            m.wallet -= totalPrice;
+            foreach (MerchantItem item in items) {
+                item.selected = false;
+                m.inventory.AddItem(item);
+            }
+            GameObject.Find("Feedback").GetComponent<Text>().text = "";
+            foreach (GameObject button in itemButtons) {
+                button.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(255,203,136,255);
+            }
         }
     }
     public void onExit() {
-        foreach (Image button in itemButtons) {
-            button.color = new Color32(255,203,136,255);
+        GameObject.Find("Feedback").GetComponent<Text>().text = "";
+        foreach(MerchantItem item in gameObject.GetComponent<Merchant_UI_Inventory>().merchantItems.GetSelectedItemList()) {
+            item.selected = false;
+        }
+        foreach (GameObject button in itemButtons) {
+            button.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(255,203,136,255);
         }
     }
 
