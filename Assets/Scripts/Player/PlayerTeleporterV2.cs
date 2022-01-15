@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerTeleport : MonoBehaviour
+public class PlayerTeleporterV2 : MonoBehaviour
 {
     private GameObject currentTeleporter;
 
@@ -8,9 +10,9 @@ public class PlayerTeleport : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) // E is used to teleport
         {
-            if (currentTeleporter != null)
+            if (currentTeleporter != null && ScoreManager.score >= 1)
             {
-                
+                ScoreManager.instance.ChangeScore(-1);
                 transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
             }
         }
