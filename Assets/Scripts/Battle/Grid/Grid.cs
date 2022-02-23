@@ -1,8 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Grid {
+
+    public event EventHandler<OnGridValueChangeEventArgs> OnGridValueChange;
+    public class OnGridValueChangeEventArgs : EventArgs {
+        public int x;
+        public int y;        
+    }
 
     private int width;
     private int height;
@@ -36,7 +43,19 @@ public class Grid {
         SetValue(2, 1, 56);
     }
     
-    private Vector3 GetWorldPosition(int x, int y) {
+    public int GetWidth() {
+        return width;
+    }
+    
+    public int GetHeight() {
+        return height;
+    }
+    
+    public float GetCellSize() {
+        return cellSize;
+    }
+    
+    public Vector3 GetWorldPosition(int x, int y) {
         return new Vector3(x, y) * cellSize + originPosition;   
     }
     
@@ -48,7 +67,7 @@ public class Grid {
     public void SetValue(int x, int y, int value) {
         if (x >= 0 && y >= 0 && x < width && y < height) {
             gridArray[x, y] = value;
-            debugTextArray[x ,y].text = gridArray[x, y].ToString();
+            if (OnGridValueChange != null) OnGridValueChange(this, new OnGridValueChangeEventArgs { x = x, y = y });
         }
     }
     
