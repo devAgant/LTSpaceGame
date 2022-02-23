@@ -15,5 +15,9 @@ public class Testing : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             grid.SetValue(UtilsClass.GetMouseWorldPosition(), 56);
         }
+        
+        if (Input.GetMouseButtonDown(1)) {
+            Debug.Log(grid.GetValue(UtilsClass.GetMouseWorldPosition()));
+        }
     }
 }
