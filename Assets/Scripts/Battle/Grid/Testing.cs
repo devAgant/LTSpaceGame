@@ -8,12 +8,14 @@ public class Testing : MonoBehaviour
     private Grid grid;
 
     private void Start() {
-        grid = new Grid(4,2, 10f, Color.white, new Vector3(20, 0));
+        grid = new Grid(20,10, 10f, Vector3.zero);
     }
     
     private void Update() {
         if (Input.GetMouseButtonDown(0)) {
-            grid.SetValue(UtilsClass.GetMouseWorldPosition(), 56);
+            Vector3 position = UtilsClass.GetMouseWorldPosition();
+            int value = grid.GetValue(position);
+            grid.SetValue(position, value + 5);
         }
         
         if (Input.GetMouseButtonDown(1)) {
