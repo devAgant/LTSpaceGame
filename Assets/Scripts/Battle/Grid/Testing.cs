@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Testing : MonoBehaviour
 {
-    
+    [SerializeField] private HeatMapVisual heatMapVisual;
     private Grid grid;
 
     private void Start() {
-        grid = new Grid(20,10, 10f, Vector3.zero);
+        grid = new Grid(10, 5, 10f, Vector3.zero);
+        
+        heatMapVisual.SetGrid(grid);
     }
     
     private void Update() {
